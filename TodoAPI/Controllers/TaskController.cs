@@ -45,7 +45,7 @@ namespace TodoAPI.Controllers
             var taskItem = mapper.Map<dbCore.TaskItem>(taskItemInputJson);
             var result = await taskRepository.CreateTask(taskItem);
 
-            return CreatedAtRoute("GetTask", new { id = result.Id });
+            return Ok();
         }
 
         [HttpPut("{id}")]
