@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/TodoAPI/bin
+/TodoAPI/obj
+/TodoAPI.DataAccess/bin
+/TodoAPI.DataAccess/obj
+/TodoAPI.Models/bin
+/TodoAPI.Models/obj
+/TodoAPI.Services/bin
+/TodoAPI.Services/obj
